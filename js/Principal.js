@@ -32,6 +32,5 @@ salon.procesar(estudiante8);
 
 let salida=document.getElementById("salida");
 salida.innerHTML="Resultados del Salon de Clases";
-salida.innerHTML+="<br> El número de estudiantes es de: "+salon.devolvercontador();
 salida.innerHTML+="<br> El porcentaje de Aprobados es de: "+salon.porcAprobados().toFixed(2)+"%";
 salida.innerHTML+="<br> La cedula del mejor estudiante es: "+salon.devolvercedula_mejor();
